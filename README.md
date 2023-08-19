@@ -1,38 +1,67 @@
-Stock Sentiment Analysis using Random Forest Classifier
-This project aims to predict whether the stock market will increase or decrease based on the sentiment analysis of news headlines using a Random Forest Classifier.
+<h1 align="center">Stock Sentiment Analysis using Random Forest Classifier</h1>
 
-Table of Contents
-Installation
-Usage
-Contributing
-License
+<div align="center">
 
-Installation
-Make sure you have Python 3 installed on your computer. You can download the latest version of Python from the official website: https://www.python.org/downloads/
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+![GitHub issues](https://img.shields.io/github/issues/ShashankBhake/Stock-Sentiment-Analysis)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ShashankBhake/Stock-Sentiment-Analysis)
+
+</div>
+
+---
+
+<p align="center"> This project aims to predict whether the stock market will increase or decrease based on the sentiment analysis of news headlines using a Random Forest Classifier.
+    <br>
+</p>
+
+## 📝 Table of Contents
+
+- [🛠️ Installation](#installation)
+- [🚀 Usage](#usage)
+- [🤝 Contributing](#contributing)
+- [🔧 Built Using](#built_using)
+
+## 🛠️ Installation <a name = "installation"></a>
+
+Make sure you have `Python 3` installed on your computer. You can download the latest version of `Python` from the [official website.](https://www.python.org/downloads/)
+
+### **Prerequisites**
 
 Install the required Python modules by running the following command in your command prompt or terminal:
 
-Copy code
+```
 pip install pandas sklearn
-This will install the required modules pandas and sklearn for running the script.
+```
 
-Download the script and the dataset files from the GitHub repository: https://github.com/username/repository
+This will install the required modules `pandas` and `sklearn` for running the script.
 
-Once you have downloaded the files, open the command prompt or terminal and navigate to the directory where the files are located.
+### **Downloading Data**
 
-Run the script by typing the following command in the command prompt or terminal:
+Clone this repository using the command:
+```git
+git clone https://github.com/ShashankBhake/Stock-Sentiment-Analysis.git
+```
+OR<br>
+Download the script and the dataset files from this GitHub repository [here](https://github.com/ShashankBhake/Stock-Sentiment-Analysis/archive/refs/heads/main.zip).
 
-Copy code
-python sentiment_analysis.py
-This will execute the script and print the confusion matrix, accuracy score and classification report for the sentiment analysis.
+Once you have downloaded the files, open the `command prompt` or `terminal` and navigate to the directory where the files are located.
 
-Note: If you're using a different file name or path, modify the command accordingly.
-Usage
+## 🚀 Usage <a name="usage"></a>
+
 Run the following command to train the model:
 
-Copy code
+```python
 python sentiment_analysis.py
-After the training is complete, the accuracy score, confusion matrix, and classification report will be printed on the console.
+```
 
-Contributing
+After the training is complete, the **accuracy score**, **confusion matrix**, and **classification report** will be printed on the console.
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions are welcome. If you find any issues or want to suggest improvements, please create a pull request.
+
+## 🔧 Built Using <a name = "built_using"></a>
+
+- [Python](https://www.python.org/)
+- [scikit-learn (sklearn)](https://scikit-learn.org/) - Machine Learning Library for Python.
+- [pandas](https://pandas.pydata.org/) - Data Manipulation and Analysis Library.
